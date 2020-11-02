@@ -29,6 +29,31 @@ public class Interval {
         if (pocetnaTackaPripada && t1.equals(tacka)) return true;
         return krajnjaTackaPripada && t2.equals(tacka);
     }
-
+    public Interval Intersect (Interval drugiInterval) {
+        Interval presjek = new Interval (0,0,false,false);
+        if (drugiInterval.isIn(this.krajnjaTacka) && !drugiInterval.isIn(this.pocetnaTacka)) {
+            presjek.krajnjaTacka = this.krajnjaTacka;
+            presjek.pocetnaTacka = drugiInterval.pocetnaTacka;
+            if (drugiInterval.pocetnaTackaPripada) presjek.pocetnaTackaPripada = true;
+            else presjek.pocetnaTackaPripada = false;
+            if (this.krajnjaTackaPripada) presjek.krajnjaTackaPripada = true;
+            else presjek.krajnjaTackaPripada = false;
+        }
+        else if (this.isIn(drugiInterval.krajnjaTacka) && !this.isIn(drugiInterval.pocetnaTacka)) {
+            presjek.krajnjaTacka = drugiInterval.krajnjaTacka;
+            presjek.pocetnaTacka = this.pocetnaTacka;
+            if (this.pocetnaTackaPripada) presjek.pocetnaTackaPripada = true;
+            else presjek.pocetnaTackaPripada = false;
+            if (drugiInterval.krajnjaTackaPripada) presjek.krajnjaTackaPripada = true;
+            else presjek.krajnjaTackaPripada = false;
+        }
+        else if (drugiInterval.isIn(this.krajnjaTacka) && drugiInterval.isIn(this.pocetnaTacka)) {
+            presjek = this;
+        }
+        else if (this.isIn(drugiInterval.krajnjaTacka) && this.isIn(drugiInterval.pocetnaTacka)) {
+            presjek = drugiInterval;
+        }
+        return presjek;
+    }
 
 }
