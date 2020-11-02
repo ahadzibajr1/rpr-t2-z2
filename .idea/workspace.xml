@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604321677515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Dodana statička metoda Intersect  u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval.">
+      <created>1604322129019</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604322129019</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

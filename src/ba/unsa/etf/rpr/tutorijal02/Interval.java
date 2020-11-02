@@ -83,4 +83,21 @@ public class Interval {
         return presjek;
     }
 
+
+
+    @Override
+    public String toString() {
+
+        if (pocetnaTackaPripada && krajnjaTackaPripada)
+            return "[" + pocetnaTacka + ", " + krajnjaTacka + "]" ;
+        if (!pocetnaTackaPripada && krajnjaTackaPripada)
+            return  "(" + pocetnaTacka + ", " + krajnjaTacka + "]";
+        if (pocetnaTackaPripada && !krajnjaTackaPripada)
+            return"[" + pocetnaTacka + ", " + krajnjaTacka + ")";
+
+        return "(" + pocetnaTacka + ", " + krajnjaTacka + ")";
+
+
+    }
+
 }
