@@ -18,4 +18,8 @@ public class Interval {
         pocetnaTackaPripada = false; krajnjaTackaPripada = false;
     }
 
+    boolean isNull () {
+        return !pocetnaTackaPripada && !krajnjaTackaPripada && pocetnaTacka == 0 && krajnjaTacka == 0;
+    }
+
 }
