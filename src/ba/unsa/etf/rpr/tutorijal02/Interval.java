@@ -13,4 +13,9 @@ public class Interval {
         this.pocetnaTackaPripada = pocetnaTackaPripada; this.krajnjaTackaPripada = krajnjaTackaPripada;
     }
 
+    Interval () {
+        pocetnaTacka = 0; krajnjaTacka = 0;
+        pocetnaTackaPripada = false; krajnjaTackaPripada = false;
+    }
+
 }
