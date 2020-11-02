@@ -56,4 +56,31 @@ public class Interval {
         return presjek;
     }
 
+    public static Interval Intersect (Interval interval1, Interval interval2) {
+        Interval presjek = new Interval (0,0,false,false);
+        if (interval2.isIn(interval1.krajnjaTacka) && !interval2.isIn(interval1.pocetnaTacka)) {
+            presjek.krajnjaTacka = interval1.krajnjaTacka;
+            presjek.pocetnaTacka = interval2.pocetnaTacka;
+            if (interval2.pocetnaTackaPripada) presjek.pocetnaTackaPripada = true;
+            else presjek.pocetnaTackaPripada = false;
+            if (interval1.krajnjaTackaPripada) presjek.krajnjaTackaPripada = true;
+            else presjek.krajnjaTackaPripada = false;
+        }
+        else if (interval1.isIn(interval2.krajnjaTacka) && !interval1.isIn(interval2.pocetnaTacka)) {
+            presjek.krajnjaTacka = interval2.krajnjaTacka;
+            presjek.pocetnaTacka = interval1.pocetnaTacka;
+            if (interval1.pocetnaTackaPripada) presjek.pocetnaTackaPripada = true;
+            else presjek.pocetnaTackaPripada = false;
+            if (interval2.krajnjaTackaPripada) presjek.krajnjaTackaPripada = true;
+            else presjek.krajnjaTackaPripada = false;
+        }
+        else if (interval2.isIn(interval1.krajnjaTacka) && interval2.isIn(interval1.pocetnaTacka)) {
+            presjek = interval1;
+        }
+        else if (interval1.isIn(interval2.krajnjaTacka) && interval1.isIn(interval2.pocetnaTacka)) {
+            presjek = interval2;
+        }
+        return presjek;
+    }
+
 }

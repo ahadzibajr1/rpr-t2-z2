@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8705a6b-060f-4bb9-abd0-5e8058e0e6e0" name="Default Changelist" comment="Dodana metoda isIn u klasu Interval">
+    <list default="true" id="d8705a6b-060f-4bb9-abd0-5e8058e0e6e0" name="Default Changelist" comment="Dodana statička metoda Intersect  u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
     </list>
@@ -92,7 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604320516193</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodana metoda Intersect s 2 parametra u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval.">
+      <created>1604321622281</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604321622281</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dodana metoda Intersect s 2 parametra u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval.">
+      <created>1604321653217</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604321653217</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Dodana metoda Intersect s 2 parametra u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval.">
+      <created>1604321677515</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604321677515</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,7 +134,10 @@
     <MESSAGE value="Dodana metoda isNull u klasu Interval" />
     <MESSAGE value="Promijenjen nivo pristupa atributa u klasi Interval&#10;&#10;Atributi su sad privatni" />
     <MESSAGE value="Dodana metoda isIn u klasu Interval" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodana metoda isIn u klasu Interval" />
+    <MESSAGE value="Dodana metoda Intersect s jednim parametrom u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval." />
+    <MESSAGE value="Dodana metoda Intersect s 2 parametra u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval." />
+    <MESSAGE value="Dodana statička metoda Intersect  u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana statička metoda Intersect  u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604319645891">
