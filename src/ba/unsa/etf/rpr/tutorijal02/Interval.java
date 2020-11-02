@@ -29,7 +29,7 @@ public class Interval {
         if (pocetnaTackaPripada && t1.equals(tacka)) return true;
         return krajnjaTackaPripada && t2.equals(tacka);
     }
-    public Interval Intersect (Interval drugiInterval) {
+    public Interval intersect (Interval drugiInterval) {
         Interval presjek = new Interval (0,0,false,false);
         if (drugiInterval.isIn(this.krajnjaTacka) && !drugiInterval.isIn(this.pocetnaTacka)) {
             presjek.krajnjaTacka = this.krajnjaTacka;
@@ -56,7 +56,7 @@ public class Interval {
         return presjek;
     }
 
-    public static Interval Intersect (Interval interval1, Interval interval2) {
+    public static Interval intersect (Interval interval1, Interval interval2) {
         Interval presjek = new Interval (0,0,false,false);
         if (interval2.isIn(interval1.krajnjaTacka) && !interval2.isIn(interval1.pocetnaTacka)) {
             presjek.krajnjaTacka = interval1.krajnjaTacka;

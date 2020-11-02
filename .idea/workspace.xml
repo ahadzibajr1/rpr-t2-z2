@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8705a6b-060f-4bb9-abd0-5e8058e0e6e0" name="Default Changelist" comment="Dodana preklopljena metoda toString u klasu Interval">
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
+    <list default="true" id="d8705a6b-060f-4bb9-abd0-5e8058e0e6e0" name="Default Changelist" comment="Dodana preklopljena metoda equals u klasu Interval">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604323324120</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Dodana preklopljena metoda equals u klasu Interval">
+      <created>1604323972049</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604323972049</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +158,8 @@
     <MESSAGE value="Dodana metoda Intersect s 2 parametra u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval." />
     <MESSAGE value="Dodana statička metoda Intersect  u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval." />
     <MESSAGE value="Dodana preklopljena metoda toString u klasu Interval" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodana preklopljena metoda toString u klasu Interval" />
+    <MESSAGE value="Dodana preklopljena metoda equals u klasu Interval" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana preklopljena metoda equals u klasu Interval" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604319645891">
@@ -162,9 +170,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604323118116" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604319429156">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604323979160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604319429156" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604323979160" />
   </component>
 </project>
