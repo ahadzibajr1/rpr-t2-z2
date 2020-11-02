@@ -100,4 +100,14 @@ public class Interval {
 
     }
 
+    @Override
+    public boolean equals (Object i) {
+        Interval interval = (Interval) i;
+        Double krajnja = this.krajnjaTacka;
+        Double pocetna = this.pocetnaTacka;
+        return (this.pocetnaTackaPripada == interval.pocetnaTackaPripada
+                && this.krajnjaTackaPripada == interval.krajnjaTackaPripada
+                && krajnja.equals(interval.krajnjaTacka)
+                && pocetna.equals(interval.pocetnaTacka));
+    }
 }
