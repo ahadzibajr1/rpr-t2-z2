@@ -22,5 +22,13 @@ public class Interval {
         return !pocetnaTackaPripada && !krajnjaTackaPripada && pocetnaTacka == 0 && krajnjaTacka == 0;
     }
 
+    boolean isIn (double tacka) {
+        Double t1 = pocetnaTacka; Double t2 = krajnjaTacka;
+
+        if (tacka > pocetnaTacka && tacka < krajnjaTacka) return true;
+        if (pocetnaTackaPripada && t1.equals(tacka)) return true;
+        return krajnjaTackaPripada && t2.equals(tacka);
+    }
+
 
 }
