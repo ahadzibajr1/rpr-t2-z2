@@ -87,15 +87,15 @@ public class Interval {
 
     @Override
     public String toString() {
-
+        if (this.isNull()) return "()";
         if (pocetnaTackaPripada && krajnjaTackaPripada)
-            return "[" + pocetnaTacka + ", " + krajnjaTacka + "]" ;
+            return "[" + pocetnaTacka + "," + krajnjaTacka + "]" ;
         if (!pocetnaTackaPripada && krajnjaTackaPripada)
-            return  "(" + pocetnaTacka + ", " + krajnjaTacka + "]";
-        if (pocetnaTackaPripada && !krajnjaTackaPripada)
-            return"[" + pocetnaTacka + ", " + krajnjaTacka + ")";
+            return  "(" + pocetnaTacka + "," + krajnjaTacka + "]";
+        if (pocetnaTackaPripada)
+            return"[" + pocetnaTacka + "," + krajnjaTacka + ")";
 
-        return "(" + pocetnaTacka + ", " + krajnjaTacka + ")";
+        return "(" + pocetnaTacka + "," + krajnjaTacka + ")";
 
 
     }

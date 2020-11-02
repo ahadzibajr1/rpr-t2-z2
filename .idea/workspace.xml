@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8705a6b-060f-4bb9-abd0-5e8058e0e6e0" name="Default Changelist" comment="Dodana preklopljena metoda equals u klasu Interval">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr-t2-z2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr-t2-z2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +39,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="All in rpr-t2-z2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr-t2-z2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in rpr-t2-z2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604323972049</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Promjena imena obje metode intersect u klasi Interval&#10;&#10;Imena su izmijenjena zbog neslaganja sa metodama u testnoj klasi">
+      <created>1604344979262</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604344979262</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +174,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dodani atributi u klasu Interval" />
@@ -159,20 +188,41 @@
     <MESSAGE value="Dodana statička metoda Intersect  u klasu Interval&#10;&#10;Metoda provjerava da li se ijedna od 4 moguće situacije u kojima se dva intervala presijecaju desila, ako nije vraća null interval." />
     <MESSAGE value="Dodana preklopljena metoda toString u klasu Interval" />
     <MESSAGE value="Dodana preklopljena metoda equals u klasu Interval" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodana preklopljena metoda equals u klasu Interval" />
+    <MESSAGE value="Promjena imena obje metode intersect u klasi Interval&#10;&#10;Imena su izmijenjena zbog neslaganja sa metodama u testnoj klasi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Promjena imena obje metode intersect u klasi Interval&#10;&#10;Imena su izmijenjena zbog neslaganja sa metodama u testnoj klasi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604319645891">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604345000022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604319645891" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604345000022" />
     <state x="444" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1604323118116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604323118116" />
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604345224280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604345224280" />
+    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604345224279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604345224279" />
+    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604345224279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604345224279" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604345224279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604345224279" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604323979160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604323979160" />
+    <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604344900622">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1604344900622" />
   </component>
 </project>
