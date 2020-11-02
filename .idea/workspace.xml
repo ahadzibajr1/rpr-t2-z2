@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8705a6b-060f-4bb9-abd0-5e8058e0e6e0" name="Default Changelist" comment="Dodan konstruktor bez parametara u klasu Interval" />
+    <list default="true" id="d8705a6b-060f-4bb9-abd0-5e8058e0e6e0" name="Default Changelist" comment="Dodana metoda isNull u klasu Interval">
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604319739011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dodana metoda isNull u klasu Interval">
+      <created>1604319853169</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604319853169</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,7 +95,8 @@
     <MESSAGE value="Dodani atributi u klasu Interval" />
     <MESSAGE value="Dodan konstruktor s četiri parametra u klasu Interval" />
     <MESSAGE value="Dodan konstruktor bez parametara u klasu Interval" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodan konstruktor bez parametara u klasu Interval" />
+    <MESSAGE value="Dodana metoda isNull u klasu Interval" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana metoda isNull u klasu Interval" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604319645891">

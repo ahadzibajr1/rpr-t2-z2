@@ -1,10 +1,10 @@
 package ba.unsa.etf.rpr.tutorijal02;
 
 public class Interval {
-    double pocetnaTacka;
-    double krajnjaTacka;
-    boolean pocetnaTackaPripada;
-    boolean krajnjaTackaPripada;
+    private double pocetnaTacka;
+    private double krajnjaTacka;
+    private boolean pocetnaTackaPripada;
+    private boolean krajnjaTackaPripada;
 
     Interval (double pocetnaTacka, double krajnjaTacka,
               boolean pocetnaTackaPripada, boolean krajnjaTackaPripada ) {
@@ -21,5 +21,6 @@ public class Interval {
     boolean isNull () {
         return !pocetnaTackaPripada && !krajnjaTackaPripada && pocetnaTacka == 0 && krajnjaTacka == 0;
     }
+
 
 }
